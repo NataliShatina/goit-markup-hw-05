@@ -425,7 +425,50 @@ position: absolute;
 top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
+padding-top: 112px;
+padding-left: 40px;
+padding-right: 40px;
+padding-bottom: 40px;
 }
 .modal-icon-cross {
   fill: #2e2f42;
+}
+.modal-cross {
+  /* border-radius: 50px; */
+  width: 24px;
+  height: 24px;
+border: none;
+border-radius: 100%;
+fill: #e7e9fc;
+stroke-width: 1px;
+stroke: rgba(0, 0, 0, 0.1);
+position: absolute;
+top: 24px;
+right: 24px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.modal-text {
+  font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;
+width: 360px;
+top: 72px;
+left: 24px;
+position: absolute;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.modal-input {
+  width: 100%;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+border-radius: 4px;
+height: 40px;
+background-color: transparent;
+margin-bottom: 8px;
 }
