@@ -411,7 +411,8 @@
 </div>
       </div>
     </footer>
-    <div class="backdrop">
+
+    <div class="backdrop is-open">
       <div class="modal">
         <button type="button" class="modal-cross">
           <svg class="modal-icon-cross" width="8" height="8">
@@ -461,10 +462,21 @@
                     rows="5" placeholder="Text input"></textarea>
                 </label>
             </div>
-            <div class="checkbox-field">
-      <input type="checkbox" name="" value="" id="" required>
-      <label class="checkbox-label" for="">I accept the terms and conditions of the <a class="checkbox-link" href="">Privacy Policy</a></label>
-    </div>
+          </div>
+          <div class="modal-field check-container" >
+            <input class="modal-check visually-hidden" type="checkbox" name="policy" id="policy" />
+            <label for="policy"
+              class="check-text">
+              <span class="check-element"
+                ><svg
+                  class="check-icon"
+                  width="10"
+                  height="8"
+                >
+                  <use href="./images/icons.svg#icon-vector"></use></svg></span>
+                  I accept the terms and conditions of the
+              <a class="check-link" href="">Privacy Policy</a>
+            </label>
           </div>
           <button class="modal-button" type="submit">Send</button>
         </form>
